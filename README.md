@@ -3,8 +3,9 @@
 [![Build Status](https://travis-ci.org/astares/Seaside-Bootstrap4.svg?branch=master)](https://travis-ci.org/astares/Seaside-Bootstrap4) [![Coverage Status](https://coveralls.io/repos/github/astares/Seaside-Bootstrap4/badge.svg?branch=master)](https://coveralls.io/github/astares/Seaside-Bootstrap4?branch=master)
 
 Bootstrap 4 wrapper for Seaside for Pharo 8
-
 based on 4.0 from [http://bootstrap.rtlcss.com/](http://bootstrap.rtlcss.com/)
+
+**IMPORTANT**: Note that there already is a newer repo: [https://github.com/astares/Seaside-Bootstrap5](https://github.com/astares/Seaside-Bootstrap5)
 
 ## Installation
 First install [Pharo](http://www.pharo.org) on your machine. Pharo 8 onwards is recommended. Either using [PharoLauncher](https://github.com/pharo-project/pharo-launcher) or [Pharo ZeroConf](http://get.pharo.org/):
