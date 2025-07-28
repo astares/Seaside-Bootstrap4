@@ -22,12 +22,12 @@ BaselineOfBootstrap4 >> baseline: spec [
 			package: 'Bootstrap4-Core-Tests'
 			with: [ spec requires: #( 'Bootstrap4-Core' ) ];
 			package: 'Bootstrap4-Widgets'
-			with: [ spec requires: #( 'Bootstrap4-Widgets' ) ];
+			with: [ spec requires: #( 'Bootstrap4-Core' ) ];
 			package: 'Bootstrap4-Examples'
 			with: [ spec requires: #( 'Bootstrap4-Core' ) ].
 
 		spec
-			group: 'Core' with: #( 'Bootstrap4-Core' 'Bootstrap4-Widgets');
+			group: 'Core' with: #( 'Bootstrap4-Core' 'Bootstrap4-Widgets' );
 			group: 'Tests' with: #( 'Bootstrap4-Core-Tests' );
 			group: 'Examples' with: #( 'Bootstrap4-Examples' );
 			group: 'all' with: #( 'Tests' 'Examples' );
